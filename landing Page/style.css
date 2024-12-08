@@ -1,0 +1,201 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #46b77e;
+    color: #df0707;
+  }
+  
+  /* Header */
+  header {
+    background-color: #e71515;
+    color: #f3eff2;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo h1 {
+    font-size: 2rem;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin-left: 20px;
+  }
+  
+  header nav ul li a {
+    color: #efe8ea;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  header nav ul li a:hover {
+    color: #be7807;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('https://media.istockphoto.com/id/2075733232/photo/christmas-decorations-vibrant-neon-signs-and-traffic-on-broadway-in-downtown-nashville.webp?a=1&s=612x612&w=0&k=20&c=7SMYA5jyDBygB7DyWFBC0WGRUsYZCCBS4STDR9N7DoI=');
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(99, 205, 229);
+    text-align: center;
+  }
+  
+  .hero .hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+  }
+  
+  .hero h2 {
+    font-size: 3rem;
+  }
+  
+  .hero p {
+    font-size: 2rem;
+  }
+  
+  .cta-button {
+    background-color: #f39c12;
+    color: rgb(55, 4, 4);
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    margin-top: 1rem;
+  }
+  
+  .cta-button:hover {
+    background-color: #e67e22;
+  }
+  
+  /* Menu Section */
+  .menu {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkowRSLy6VQnh_QTgF1V3bObGHvhfv0YC3jw&s');
+    padding: 3rem 0;
+    background-color: #deb810;
+    text-align: center;
+  }
+  
+  .menu h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .menu-item {
+    background-color: #f5eff1;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(131, 169, 20, 0.1);
+    border-radius: 8px;
+  }
+  
+  .menu-item img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .menu-item h3 {
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+  
+  /* Reservations Section */
+  .reservations {
+    background-color: #60c9de;
+    background: url('https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg?auto=compress&cs=tinysrgb&w=600');
+    padding: 3rem 0;
+    text-align: center;
+  }
+  
+  .reservations h2 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .reservations form {
+    display: inline-block;
+    background-color: rgb(234, 234, 36);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(200, 35, 35, 0.1);
+  }
+  
+  .reservations label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  .reservations input {
+    width: 300px;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .reservations button {
+    background-color: #021616;
+    color: rgb(249, 4, 4);
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .reservations button:hover {
+    background-color: #0ead06;
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    padding: 3rem 0;
+    background-color: #0ab010;
+    background : url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV-_uaxqwj_hjI0PcxLFn9BOBWWdVoH98x0A&s');
+    text-align: center;
+  }
+  
+  .testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .testimonial {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #ad0b0b;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
